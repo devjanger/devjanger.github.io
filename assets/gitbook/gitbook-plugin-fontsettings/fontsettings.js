@@ -10,20 +10,20 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Default themes
     var THEMES = [
         {
-            config: 'night',
-            text: 'Night',
-            id: 2
-        },        
+            config: 'white',
+            text: 'White',
+            id: 0
+        },   
         {
             config: 'sepia',
             text: 'Sepia',
             id: 1
         },
         {
-            config: 'white',
-            text: 'White',
-            id: 0
-        }        
+            config: 'night',
+            text: 'Night',
+            id: 2
+        }
     ];
 
     // Default font families
