@@ -54,6 +54,19 @@ layout: post
 ~~~
 
 
+# Magic hash
+~~~ php
+// 8.2.10 version
+<?php
+    echo var_dump( md5("QLTHNDT") == 0 );
+?>
+
+// Result : bool(true)
+~~~
+
+[https://github.com/spaze/hashes](https://github.com/spaze/hashes)
+
+
 
 # Loose(==) comparisons Table
 ![/assets/gitbook/images/2023-09-25/php-loose-comparisons.PNG](/assets/gitbook/images/2023-09-25/php-loose-comparisons.PNG)
