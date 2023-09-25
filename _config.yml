@@ -50,14 +50,26 @@ exclude:
   - _drafts
 
 collections:
-  webHackings:
-    output: true
-    permalink: /:collection/:path/
-    
   pages:
     output: true
     permalink: /:collection/:path/
     
+  webHackings:
+    output: true
+    permalink: /:collection/:path/
+
+  pwnables:
+    output: true
+    permalink: /:collection/:path/
+
+  reversing:
+    output: true
+    permalink: /:collection/:path/ 
+
+  forensic:
+    output: true
+    permalink: /:collection/:path/ 
+
 
 page_width: 800px
 
