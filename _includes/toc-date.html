@@ -32,7 +32,7 @@
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
                 <a href="{{site.baseurl}}/" onclick="pageScrollToTop(this)">
-                    {{ site.title | escape }}
+                    <b></n>{{ site.title | escape }}</b>
                 </a>
             </li>
 
@@ -40,6 +40,8 @@
 
             {% for collection in site.collections %}
                 {% if collection.label == "pages" %}
+                    {% continue %}
+                {% elsif collection.label == "posts" %}
                     {% continue %}
                 {% endif %}
             
