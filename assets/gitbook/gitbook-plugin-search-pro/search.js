@@ -105,7 +105,7 @@ require([
             if ((index2 = INDEX_DATA[page].title.toLowerCase().indexOf(keyword.toLowerCase())) !== -1) {
                 results.push({
                     url: page,
-                    title: INDEX_DATA[page].title.substr(Math.max(0, index2 - 50), MAX_DESCRIPTION_SIZE).replace(new RegExp('(' + escapeReg(keyword) + ')', 'gi'), '<span class="search-highlight-keyword">$1</span>'),
+                    title: INDEX_DATA[page].title,
                     body: INDEX_DATA[page].body.substr(0, MAX_DESCRIPTION_SIZE)
             });
             }  
