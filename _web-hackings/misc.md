@@ -6,7 +6,7 @@ category: Web Hacking
 layout: post
 ---
 
-## Useful utility Tools
+## Useful Tools
 
 Webhook.site - [https://webhook.site/](https://webhook.site/)
 
