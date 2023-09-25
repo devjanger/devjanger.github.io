@@ -54,7 +54,7 @@ collections:
     output: true
     permalink: /:collection/:path/
     
-  webHackings:
+  web-hackings:
     output: true
     permalink: /:collection/:path/
 
