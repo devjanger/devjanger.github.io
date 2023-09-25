@@ -9,11 +9,11 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     // Default themes
     var THEMES = [
-        {
-            config: 'white',
-            text: 'White',
-            id: 0
-        },   
+        // {
+        //     config: 'white',
+        //     text: 'White',
+        //     id: 0
+        // },   
         {
             config: 'sepia',
             text: 'Sepia',
