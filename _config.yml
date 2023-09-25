@@ -1,10 +1,10 @@
 # Configurations
-title:            pentesting cheat sheets
-longtitle:        janger's pentesting cheat sheets
-author:           janger
+title:            Janger's pentesting cheat sheets
+longtitle:        Janger's pentesting cheat sheets
+author:           Janger
 email:            janger@kakao.com
 description: >
-  jangers' cheat sheets for CTF, pentest.
+  Jangers' cheat sheets for CTF, pentest.
 
 version:          1.0
 gitbook_version:  3.2.3
