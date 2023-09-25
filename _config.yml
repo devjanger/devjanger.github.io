@@ -50,11 +50,11 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  webHackings:
     output: true
     permalink: /:collection/:path/
-
-  webHackings:
+    
+  pages:
     output: true
     permalink: /:collection/:path/
     
