@@ -285,3 +285,183 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     --c-danger-title: #c00;
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Theme 2
+ */
+.color-theme-2 .dropdown-menu {
+  background-color: #2d3143;
+  border-color: #272a3a;
+}
+.color-theme-2 .dropdown-menu .dropdown-caret .caret-inner {
+  border-bottom: 9px solid #2d3143;
+}
+.color-theme-2 .dropdown-menu .buttons {
+  border-color: #272a3a;
+}
+.color-theme-2 .dropdown-menu .button {
+  color: #62677f;
+}
+.color-theme-2 .dropdown-menu .button:hover {
+  color: #f4f4f5;
+}
+.book .book-header .font-settings .font-enlarge {
+  line-height: 30px;
+  font-size: 1.4em;
+}
+.book .book-header .font-settings .font-reduce {
+  line-height: 30px;
+  font-size: 1em;
+}
+.book-body {
+  color: #bdcadb;
+  background: #1c1f2b;
+}
+.book-body .page-wrapper .page-inner section {
+  background: #1c1f2b;
+}
+.book.font-size-0 .book-body .page-inner section {
+  font-size: 1.2rem;
+}
+.book.font-size-1 .book-body .page-inner section {
+  font-size: 1.4rem;
+}
+.book.font-size-2 .book-body .page-inner section {
+  font-size: 1.6rem;
+}
+.book.font-size-3 .book-body .page-inner section {
+  font-size: 2.2rem;
+}
+.book.font-size-4 .book-body .page-inner section {
+  font-size: 4rem;
+}
+.book.font-family-0 {
+  font-family: Georgia, serif;
+}
+.book.font-family-1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.book-body .page-wrapper .page-inner section.normal {
+  color: #bdcadb;
+}
+.book-body .page-wrapper .page-inner section.normal a {
+  color: #3eb1d0;
+}
+.book-body .page-wrapper .page-inner section.normal h1,
+.book-body .page-wrapper .page-inner section.normal h2,
+.book-body .page-wrapper .page-inner section.normal h3,
+.book-body .page-wrapper .page-inner section.normal h4,
+.book-body .page-wrapper .page-inner section.normal h5,
+.book-body .page-wrapper .page-inner section.normal h6 {
+  color: #fffffa;
+}
+.book-body .page-wrapper .page-inner section.normal h1,
+.book-body .page-wrapper .page-inner section.normal h2 {
+  border-color: #373b4e;
+}
+.book-body .page-wrapper .page-inner section.normal h6 {
+  color: #373b4e;
+}
+.book-body .page-wrapper .page-inner section.normal hr {
+  background-color: #373b4e;
+}
+.book-body .page-wrapper .page-inner section.normal blockquote {
+  border-color: #373b4e;
+}
+.book-body .page-wrapper .page-inner section.normal pre,
+.book-body .page-wrapper .page-inner section.normal code {
+  color: #9dbed8;
+  background: #2d3143;
+  border-color: #2d3143;
+}
+.book-body .page-wrapper .page-inner section.normal .highlight {
+  background-color: #282a39;
+}
+.book-body .page-wrapper .page-inner section.normal table th,
+.book-body .page-wrapper .page-inner section.normal table td {
+  border-color: #3b3f54;
+}
+.book-body .page-wrapper .page-inner section.normal table tr {
+  color: #b6c2d2;
+  background-color: #2d3143;
+  border-color: #3b3f54;
+}
+.book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+  background-color: #35394b;
+}
+.book-header {
+  color: #7e888b;
+  background: transparent;
+}
+.book-header .btn {
+  color: #3b3f54;
+}
+.book-header .btn:hover {
+  color: #fffff5;
+  background: none;
+}
+.book-header h1 {
+  color: #bdcadb;
+}
+.book-body .navigation {
+  color: #383f52;
+}
+.book-body .navigation:hover {
+  color: #fffff5;
+}
+/*
+ * Theme 2
+ */
+.book-summary {
+  color: #bcc1d2;
+  background: #2d3143;
+  border-right: none;
+}
+.book-summary .book-search {
+  background: transparent;
+}
+.book-summary .book-search input,
+.book-summary .book-search input:focus {
+  border: 1px solid transparent;
+}
+.book-summary ul.summary li.divider {
+  background: #272a3a;
+  box-shadow: none;
+}
+.book-summary ul.summary li i.fa-check {
+  color: #33cc33;
+}
+.book-summary ul.summary li.done > a {
+  color: #62687f;
+}
+.book-summary ul.summary li a,
+.book-summary ul.summary li span {
+  color: #c1c6d7;
+  background: transparent;
+  font-weight: 600;
+}
+.book-summary ul.summary li.active > a,
+.book-summary ul.summary li a:hover {
+  color: #f4f4f5;
+  background: #252737;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
