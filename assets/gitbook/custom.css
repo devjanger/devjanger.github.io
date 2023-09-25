@@ -50,7 +50,7 @@
 }
 
 .book .book-body .book-header {
-    background: #ffffff;
+    background: #1c1f2b;
 }
 
 .book.color-theme-1 .book-body .book-header {
@@ -300,20 +300,20 @@ pre:has(code.language-mermaid[data-processed="true"]) {
 /*
  * Theme 2
  */
-.color-theme-2 .dropdown-menu {
+.dropdown-menu {
   background-color: #2d3143;
   border-color: #272a3a;
 }
-.color-theme-2 .dropdown-menu .dropdown-caret .caret-inner {
+.dropdown-menu .dropdown-caret .caret-inner {
   border-bottom: 9px solid #2d3143;
 }
-.color-theme-2 .dropdown-menu .buttons {
+.dropdown-menu .buttons {
   border-color: #272a3a;
 }
-.color-theme-2 .dropdown-menu .button {
+.dropdown-menu .button {
   color: #62677f;
 }
-.color-theme-2 .dropdown-menu .button:hover {
+.dropdown-menu .button:hover {
   color: #f4f4f5;
 }
 .book .book-header .font-settings .font-enlarge {
