@@ -277,7 +277,7 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     --c-tip-title: #359469;
     --c-warning: #e7c000;
     --c-warning-bg: rgba(255, 229, 100, .25);
-    --c-warning-text: #6b5900;
+    --c-warning-text: #ffffff;
     --c-warning-title: #b29400;
     --c-danger: #c00;
     --c-danger-bg: #ffe0e0;
