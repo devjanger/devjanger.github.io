@@ -39,7 +39,7 @@ output
 
 <br>
 
-## Useful utility Tools
+## Useful Tools
 
 Hex to String Converter - [https://codebeautify.org/hex-string-converter](https://codebeautify.org/hex-string-converter)
 
