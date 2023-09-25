@@ -17,7 +17,7 @@ Content-Security-Policy: default-src 'self'; script-src *.google.com
 ~~~ html
 <html>
     <head>...</head>
-    <body>    
+    <body>
         <script src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1);"></script>
     </body>
 </html>
