@@ -39,6 +39,10 @@
             <li class="divider"></li>
 
             {% for collection in site.collections %}
+                {% if collection.label == "pages" %}
+                    {% continue %}
+                {% endif %}
+            
                 <p>{{ collection.label }}</p>
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
