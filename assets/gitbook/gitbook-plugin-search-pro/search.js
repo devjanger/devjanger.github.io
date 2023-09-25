@@ -91,15 +91,24 @@ require([
         if (keyword == null || keyword.trim() === '') return;
 
         var results = [],
-            index = -1;
+            index1 = -1,
+            index2 = -1;
         for (var page in INDEX_DATA) {
-            if ((index = INDEX_DATA[page].body.toLowerCase().indexOf(keyword.toLowerCase())) !== -1) {
+            if ((index1 = INDEX_DATA[page].body.toLowerCase().indexOf(keyword.toLowerCase())) !== -1) {
                 results.push({
                     url: page,
                     title: INDEX_DATA[page].title,
-                    body: INDEX_DATA[page].body.substr(Math.max(0, index - 50), MAX_DESCRIPTION_SIZE).replace(new RegExp('(' + escapeReg(keyword) + ')', 'gi'), '<span class="search-highlight-keyword">$1</span>')
+                    body: INDEX_DATA[page].body.substr(Math.max(0, index1 - 50), MAX_DESCRIPTION_SIZE).replace(new RegExp('(' + escapeReg(keyword) + ')', 'gi'), '<span class="search-highlight-keyword">$1</span>')
                 });
             }
+
+            if ((index2 = INDEX_DATA[page].title.toLowerCase().indexOf(keyword.toLowerCase())) !== -1) {
+                results.push({
+                    url: page,
+                    title: INDEX_DATA[page].title.substr(Math.max(0, index2 - 50), MAX_DESCRIPTION_SIZE).replace(new RegExp('(' + escapeReg(keyword) + ')', 'gi'), '<span class="search-highlight-keyword">$1</span>'),
+                    body: INDEX_DATA[page].body.substr(0, MAX_DESCRIPTION_SIZE)
+            });
+            }  
         }
         displayResults({
             count: results.length,
