@@ -7,8 +7,8 @@ layout: post
 ---
 
 
-> **Disassembler&Debugger**
+## Disassembler&Debugger
 
-x64dbg - https://x64dbg.com/ (No Disassembler)
+x64dbg - [https://x64dbg.com/](https://x64dbg.com/) (No Disassembler)
 
-ida - https://hex-rays.com/ida-free/ (Yes Debugger, Yes Disassembler)
+ida - [https://hex-rays.com/ida-free/](https://hex-rays.com/ida-free/) (Yes Debugger, Yes Disassembler)
