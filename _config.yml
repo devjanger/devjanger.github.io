@@ -54,6 +54,11 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+  webHackings:
+    output: true
+    permalink: /:collection/:path/
+    
+
 page_width: 800px
 
 destination:      ./_site
