@@ -458,6 +458,10 @@ pre:has(code.language-mermaid[data-processed="true"]) {
   font-weight: 600;
 }
 
+#book-search-results .search-results .has-results .search-results-item {
+    color: #bdcadb;
+}
+
 
 
 
