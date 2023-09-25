@@ -70,6 +70,10 @@ collections:
     output: true
     permalink: /:collection/:path/ 
 
+  exploit:
+    output: true
+    permalink: /:collection/:path/ 
+
 
 page_width: 800px
 
