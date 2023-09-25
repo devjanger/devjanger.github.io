@@ -7,7 +7,7 @@ layout: post
 ---
 
 
-> **Check file information**
+## Check file information
 
 ~~~ bash
 file ./chall
@@ -21,7 +21,7 @@ output
 
 <br>
 
-> **Check file memory mitigation**
+## Check file memory mitigation
 
 ~~~ bash
 checksec --file=./chall
@@ -39,7 +39,7 @@ output
 
 <br>
 
-> **Useful utility Tools**
+## Useful utility Tools
 
 Hex to String Converter - [https://codebeautify.org/hex-string-converter](https://codebeautify.org/hex-string-converter)
 
