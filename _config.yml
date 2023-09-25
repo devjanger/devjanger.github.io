@@ -1,15 +1,15 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            pentesting cheat sheets
+longtitle:        janger's pentesting cheat sheets
+author:           janger
+email:            janger@kakao.com
 description: >
-  Build Jekyll site with the GitBook style.
+  jangers' cheat sheets for CTF, pentest.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
+url:              'https://devjanger.github.io'
 baseurl:          '/jekyll-gitbook'
 rss:              RSS
 
