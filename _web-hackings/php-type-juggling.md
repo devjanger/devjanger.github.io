@@ -9,7 +9,7 @@ layout: post
 
 # Type Juggling
 
-> vulnerable versions of PHP 
+> Type Juggling vulnerable versions of PHP 
 > 
 > \> 8.0.0
 {: .block-warning }
@@ -36,13 +36,11 @@ layout: post
 
 
 ~~~ php
-
 <?php
     echo sha1("1");
 ?>
 
 // Result : 356a192b7913b04c54574d18c28d46e6395428ab
-
 ~~~
 
 
