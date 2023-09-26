@@ -38,3 +38,11 @@ cipher /w:c:
 
 
 <br>
+
+
+## Linux Exiftool
+
+~~~ bash
+exiftool IMG.png
+~~~
+
