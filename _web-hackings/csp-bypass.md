@@ -6,7 +6,7 @@ category: Web Hacking
 layout: post
 ---
 
-## Google JSONP API CSP Bypass
+## Google JSONP CSP Bypass
 
 If the target server is accepting addresses from Google, use the
 
