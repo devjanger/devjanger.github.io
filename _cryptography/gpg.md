@@ -17,7 +17,7 @@ gpg --list-signatures
 ~~~
 
 ## Export public and private keys With --armor option
-~~ bash
+~~~ bash
 gpg --armor --export KEY-ID > public.key
 gpg --armor --export-secret-keys KEY-ID > private.key
 ~~~
