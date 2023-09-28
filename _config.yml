@@ -74,6 +74,9 @@ collections:
     output: true
     permalink: /:collection/:path/ 
 
+  cryptography:
+    output: true
+    permalink: /:collection/:path/ 
 
 page_width: 800px
 
