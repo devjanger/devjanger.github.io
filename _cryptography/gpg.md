@@ -1,5 +1,5 @@
 ---
-title: GPG commands
+title: GPG(GNU Privacy Guard) commands
 author: janger
 date: 2023-09-28
 category: cryptography
