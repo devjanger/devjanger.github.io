@@ -24,3 +24,18 @@ Result(server side):
 Received from ('123.123.123.123', 2222)
 Received: b'abc'
 ~~~
+
+## Sniffing FTP
+
+~~~ python
+from scapy.all import *
+
+packet_filter = "tcp and port 21"
+
+def sniff_ftp(packet):
+    if packet.haslayer(TCP) and packet.haslayer(Raw):
+        if packet[TCP].dport == 21:
+            print(packet[Raw].load.decode())
+
+sniff(filter=packet_filter, prn=sniff_ftp)
+~~~
