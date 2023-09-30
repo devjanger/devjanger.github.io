@@ -1,5 +1,5 @@
 ---
-title: GDB Commands
+title: GDB(GNU Debugger) Commands
 author: janger
 date: 2023-09-25
 category: reversing
