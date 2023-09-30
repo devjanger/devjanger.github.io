@@ -78,6 +78,10 @@ collections:
     output: true
     permalink: /:collection/:path/ 
 
+  network-hackings:
+    output: true
+    permalink: /:collection/:path/ 
+
 page_width: 800px
 
 destination:      ./_site
