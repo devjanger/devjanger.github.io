@@ -1,7 +1,7 @@
 ---
 title: HTTP Request Splitting
 author: janger
-date: 2023-10-02
+date: 2023-10-01
 category: Web Hacking
 layout: post
 ---
