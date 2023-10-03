@@ -11,7 +11,7 @@ layout: post
 
 
 ## 전제 조건
-1. 대상 웹 서버가 HTTP/1.0 혹은 HTTP/1.1과 Keep Alive, Chunked 요청을 허용
+1. HTTP agent가 HTTP/1.0 또는 HTTP/1.1 사용과 Keep Alive 옵션, Chunked 인코딩을 허용
 2. 사용자가 HTTP 헤더 조작이 가능
 3. 서로 동일한 네트워크의 사용자 응답을 처리하는 두 호스트(프론트엔드, 백엔드)가 있음
 4. 프론트엔드와 백엔드가 HTTP request와 Header 구문을 서로 다르게 해석
