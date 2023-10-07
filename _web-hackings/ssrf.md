@@ -26,3 +26,5 @@ http://127。0。0。1
 [https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery)
 
 [https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery/url-format-bypass](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery/url-format-bypass)
+
+[https://everything.curl.dev/cmdline/globbing](https://everything.curl.dev/cmdline/globbing)
