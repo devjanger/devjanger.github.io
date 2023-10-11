@@ -46,3 +46,15 @@ cipher /w:c:
 exiftool IMG.png
 ~~~
 
+<br>
+
+## Python calculate CRC32
+
+~~~ python
+from zlib import crc32
+f = open('a.txt', mode='rb')
+crc = crc32(f.read())
+print(hex(crc))
+~~~
+
+<br>
