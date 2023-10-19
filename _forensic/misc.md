@@ -24,6 +24,11 @@ Get-FileHash .\document.pdf
 ](https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3
 )
 
+~~~ powershell
+CertUtil -hashfile .\document.pdf MD5
+~~~
+
+[https://superuser.com/questions/245775/is-there-a-built-in-checksum-utility-on-windows-7](https://superuser.com/questions/245775/is-there-a-built-in-checksum-utility-on-windows-7)
 
 
 <br>
