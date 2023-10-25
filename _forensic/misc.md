@@ -14,7 +14,7 @@ copy /b a.txt+b.txt+c.txt output.txt
 
 <br>
 
-## Windows Powershell Check file integrity(SHA, MD5)
+## Windows Powershell Check file checksum(SHA, MD5)
 
 ~~~ powershell
 Get-FileHash .\document.pdf
@@ -30,6 +30,13 @@ CertUtil -hashfile .\document.pdf MD5
 
 [https://superuser.com/questions/245775/is-there-a-built-in-checksum-utility-on-windows-7](https://superuser.com/questions/245775/is-there-a-built-in-checksum-utility-on-windows-7)
 
+<br>
+
+## Linux Check file checksum(SHA, MD5)
+
+~~~ bash
+cat ./file.apk | openssl sha256
+~~~
 
 <br>
 
