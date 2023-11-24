@@ -39,6 +39,18 @@ output
 
 <br>
 
+
+## HexDump
+
+~~~ bash
+hexdump -C exploit.bin
+~~~
+
+
+<br>
+
+
+
 ## Useful Tools
 
 Hex to String Converter - [https://codebeautify.org/hex-string-converter](https://codebeautify.org/hex-string-converter)
