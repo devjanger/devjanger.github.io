@@ -21,3 +21,9 @@ CFF explorer - [https://ntcore.com/?page_id=388](https://ntcore.com/?page_id=388
 PEview - [http://wjradburn.com/software/](http://wjradburn.com/software/)
 
 Stud_PE - [https://www.cgsoftlabs.ro/studpe.html](https://www.cgsoftlabs.ro/studpe.html)
+
+
+## Detect Packer
+
+ExeinfoPE - [https://github.com/ExeinfoASL/ASL](https://github.com/ExeinfoASL/ASL)
+
