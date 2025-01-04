@@ -6,7 +6,7 @@ category: password crack
 layout: post
 ---
 
-## MD5 crack
+## MD5 cracking
 
 ~~~ bash
 hashcat -m 0 "412dd4759978acfcc81deab01b382403" /usr/share/wordlists/rockyou.txt.gz --show
