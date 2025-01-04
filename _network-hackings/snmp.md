@@ -8,8 +8,8 @@ layout: post
 
 ## snmpbulkwalk
 
-```bash
+~~~bash
 snmpbulkwalk -c public -v2c $target
-```
+~~~
 
 ## 
