@@ -11,5 +11,3 @@ layout: post
 ~~~bash
 snmpbulkwalk -c public -v2c $target
 ~~~
-
-## 
